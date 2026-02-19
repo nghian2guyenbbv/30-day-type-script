@@ -1,0 +1,71 @@
+30-DAY TYPESCRIPT MASTERY ROADMAP
+
+Phase 1: Strong Foundations (Day 1–7)
+
+Day 1–2: TypeScript Core - Static typing vs dynamic typing - Setup:
+Node.js, tsc, tsconfig.json - Basic types - Functions with types -
+Arrays and objects - Optional and default parameters Practice: - Convert
+simple Java methods to TypeScript - Build a small calculator
+
+Day 3–4: Interfaces & Types - interface - type - Differences between
+them - Optional properties - Readonly properties - Function types
+Practice: - Create DTO models (User, Product, Order)
+
+Day 5–6: Union & Advanced Basic Types - Union types - Literal types -
+Type narrowing - Type guards - Enums Practice: - Build API state handler
+(LOADING | SUCCESS | ERROR)
+
+Day 7: Generics - Generic functions - Generic interfaces - Generic
+constraints Practice: - Create ApiResponse - Create reusable service
+wrapper
+
+Phase 2: Real-World Engineering (Day 8–15)
+
+Day 8–9: Utility Types - Partial - Required - Readonly - Pick - Omit -
+Record<K, V> Practice: - Create UpdateUserDTO - Create filtered response
+models
+
+Day 10–11: Advanced Type System - keyof - typeof - Mapped types -
+Conditional types - infer Practice: - Create Nullable - Create
+DeepReadonly
+
+Day 12–13: TypeScript + Node.js - Express setup - Typed
+request/response - Middleware typing Practice: - Strongly typed route
+params - Strongly typed query params
+
+Day 14–15: Error Handling & Validation - Custom error types -
+Discriminated unions - Zod validation Practice: - Type-safe input
+validation - API error handling pattern
+
+Phase 3: Frontend & Fullstack (Day 16–23)
+
+Day 16–18: TypeScript + React - Functional components - Props typing -
+useState typing - useEffect typing - Event typing Practice: - Build Todo
+app - Typed API integration
+
+Day 19–20: API Layer Architecture - Typed API client - Axios +
+generics - Error modeling Practice: - Connect React to backend - Use
+ApiResponse
+
+Day 21–23: Advanced Patterns - Discriminated unions in state - Custom
+hooks typing - Context API typing - Generic reusable components
+Practice: - Typed form system - Reusable table component
+
+Phase 4: Senior Level (Day 24–30)
+
+Day 24–25: Project Architecture - Folder structure - Feature-based
+structure - Monorepo basics - Strict mode best practices
+
+Day 26–27: Fullstack Type Safety - Shared types frontend/backend -
+Type-safe REST - Type-safe DTOs Build: - Mini fullstack project with
+shared types
+
+Day 28: Performance & Build Optimization - tsconfig optimization -
+strict mode - noImplicitAny - Build vs dev config
+
+Day 29: Freelancing Preparation - GitHub portfolio - Architecture
+README - Clean documentation
+
+Day 30: Final Project Build Secure Task Manager: - Auth (mock JWT) -
+CRUD API - React frontend - Type-safe API layer - Validation - Error
+handling Deploy: - Frontend to Vercel - Backend to Railway or Render
