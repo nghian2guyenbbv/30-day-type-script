@@ -1,0 +1,10 @@
+-- 1. Create project --
+mkdir ts-day1
+cd ts-day1
+npm init -y
+npm install typescript --save-dev
+npx tsc --init
+
+
+-- 2. init project---
+create src/index.ts folder 
